@@ -1,0 +1,12 @@
+/* Pour réinisialiser les marge et les décoration sur le site à zéro */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+} 
+
+.navbar{
+    background-image: url(../IMG/pngtree-gradient-blue-matte-background-image_346221.jpg);
+    padding: 50px;
+}
