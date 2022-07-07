@@ -1,33 +1,28 @@
-/* Remet tout a zéro sur le site : marge ect  */
-* {
+/* * {
     padding: 0 ;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-}
-
+} */
 
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* NabBar CSS Début */
+/* Modification NavBar */
 nav{
-    /* position: fixed !important; Permet de garder la nav en Important*/ 
-    background: #004A7F;
-    height: 80px;
+    background: white;
+    height: 85px;
     width: 100%;
 }
-
-
 a:link{
     text-decoration: none;
 }
 
 label.logo{
     color: black;
-    font-size: 35px;
+    font-size: 45px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
@@ -36,38 +31,43 @@ label.logo{
 .logo-img{
     float: left;
     position: relative;
-    margin: -40px 15px 15px 20px;
+    margin: -40px 50px 5px 150px;
 }
 
 nav ul {
     float: right;
-    margin-right: 20px;
+    margin-right: 100px;
+    margin-top: 30px;
+    text-align: center;
 
 }
 
+/* PLacement des catégorie dans la NavBar marge ect */
 nav ul li{
     display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+    line-height: 60px;
+    margin: -16px 20px;
 }
 
+/* Modification couleur texte NavBar */
 nav ul li a{
-    color: white;
-    font-size: 15px;
+    color: black;
+    font-size: 16px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
 }
 
+/* Contour quand on passe sur une catégorie */
 a.active,a:hover{
-    background: #1b9bff;
+    background: white;
     transition:  all .5s;
-
 }
 
+/* Modification du btn de la Nav */
 .checkbtn{
     font-size: 30px;
-    color: white;
+    color: #004A7F;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -96,7 +96,7 @@ a.active,a:hover{
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #2c3e50;
+        background: white;
         top: 80px;
         left: 0;
         text-align: center;
@@ -111,54 +111,23 @@ a.active,a:hover{
     }
     a:hover,a.active{
         background: none;
-        color: #0082e6;
+        color: Black;
     }
     #check:checked ~ ul{
         left: 0;
     }
 }
-/* NabBar CSS Fin */
 
+.TitreAcceuil h2{
 
-/* 
-Permet de rapprocher la bannierre de la nav
-.bannierePresta
-{
-    margin-top: -6%;
-}  */
+    font-size: 30px;
+    margin-top: 5px;
+    color: #004A7F;
+    align-items: center;
+}
 
-
-header {
-    background-color: rgb(187, 157, 75);
-  }
-  
-  header h3 {
-    color: #fff;
-    padding: 5px;
-  }
-  
-  section.container {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px;
-  }
-  
-  section.container .item {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-shadow: 1px 1px 12px rgb(0, 0, 0, 0.2);
-    border-radius: 20px;
-    margin: 20px;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  section.container img, p, h2 {
-    padding: 5px;
-  }
-  
-  section.container p.price {
-    font-size: 20px;
-  }
+.BanniereAcceuil{
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 30px;
+}
