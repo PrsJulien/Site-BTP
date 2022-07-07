@@ -31,7 +31,7 @@ label.logo{
 .logo-img{
     float: left;
     position: relative;
-    margin: -40px 50px 5px 150px;
+    margin: 10px 50px 0px 150px;
 }
 
 nav ul {
@@ -123,7 +123,7 @@ a.active,a:hover{
     font-size: 30px;
     margin-top: 5px;
     color: #004A7F;
-    align-items: center;
+    text-align: center;
 }
 
 .BanniereAcceuil{
