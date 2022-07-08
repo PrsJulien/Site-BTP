@@ -42,14 +42,13 @@ nav ul {
 
 }
 
-/* PLacement des catégorie dans la NavBar marge ect */
+
 nav ul li{
     display: inline-block;
     line-height: 60px;
     margin: -16px 20px;
 }
 
-/* Modification couleur texte NavBar */
 nav ul li a{
     color: black;
     font-size: 16px;
@@ -58,13 +57,12 @@ nav ul li a{
     text-transform: uppercase;
 }
 
-/* Contour quand on passe sur une catégorie */
+
 a.active,a:hover{
     background: white;
     transition:  all .5s;
 }
 
-/* Modification du btn de la Nav */
 .checkbtn{
     font-size: 30px;
     color: #004A7F;
@@ -117,6 +115,7 @@ a.active,a:hover{
         left: 0;
     }
 }
+/* NavBar Fin*/
 
 .TitreAcceuil h2{
 
