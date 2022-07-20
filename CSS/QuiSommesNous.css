@@ -2,12 +2,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Modification NavBar */
+/* Modification NavBar page contact */
 nav{
     background: white;
     height: 85px;
     width: 100%;
 }
+
 a:link{
     text-decoration: none;
 }
@@ -31,9 +32,7 @@ nav ul {
     margin-right: 100px;
     margin-top: 30px;
     text-align: center;
-
 }
-
 
 nav ul li{
     display: inline-block;
@@ -63,6 +62,7 @@ a.active,a:hover{
     cursor: pointer;
     display: none;
 }
+
 #check{
     display: none;
 }
@@ -76,7 +76,6 @@ a.active,a:hover{
         font-size: 16px;
     }
 }
-
 @media (max-width: 858px){
     .checkbtn{
         display: block;
@@ -108,21 +107,14 @@ a.active,a:hover{
 }
 /* NavBar Fin*/
 
-.TitreAcceuil h2{
+/* Modification Main page QuiNousSommes */
 
-    font-size: 35px;
-    margin-top: 10px;
-    color: #004A7F;
+.TitrePrincipal{
     text-align: center;
+    font-size: 35px;
+    color: #004A7F;
+    margin: 10px;
 }
-
-.BanniereAcceuil{
-    margin-right: 100px;
-    margin-left: 100px;
-    border-radius: 30px;
-}
-
-/* Modification Main Page Acceuil*/
 
 #conteneur
 {
@@ -132,35 +124,19 @@ a.active,a:hover{
     padding: 20px;
 }
 
-header h3 {
-    color: #fff;
-    padding: 5px;
+
+.element_1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: lightgray 2px solid;
+
 }
 
-section.container {
+.element_2{
     display: flex;
-    flex-wrap: wrap;
-    margin: 10px;
-}
-
-section.container .item {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    box-shadow: 1px 1px 12px rgb(0, 0, 0, 0.2);
-    border-radius: 20px;
-    margin: 20px;
-    padding: 10px;
-    text-align: center;
-}
+    align-items: center;
+    border: lightgray 2px solid;
 
-section.container img, p, h2 {
-    padding: 5px;
 }
-
-section.container p.price {
-    font-size: 20px;
-}
-
-/* MAain Fin*/
