@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden; 
+}
 /*  Modification NavBar */
 
 .navbar{
@@ -6,11 +9,143 @@
 }
 
 /* NavBar Fin */
-
-/*  Modification TextePrincipal */
-
-.TextePrincipal{
-  color: #004A7F;
+header {
+  background-color: rgb(187, 157, 75);
 }
 
-/* TextePrincipal Fin */
+header h3 {
+  color: #fff;
+}
+
+section.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.container .item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 1px 1px 12px rgb(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: 20px;
+  /* padding: 10px; */
+  text-align: center;
+}
+
+section.container img, p, h2 {
+  padding: 5px;
+}
+
+section.container p.price {
+  font-size: 20px;
+}
+
+
+.bg-grey {
+  background: #292929;
+  margin: 0%;
+}
+
+.logo-footer {
+  margin-bottom: 40px;
+}
+
+footer {
+  color: grey;
+} 
+
+footer p, a {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer h6 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 40px;
+  position: relative;
+  font-size: 22px;
+  color: white;
+  
+}
+
+footer h6:after {
+  position: absolute;
+  content: "";
+  background: #004A7F;
+  width: 12%;
+  height: 3px;
+  left: 0;
+  bottom: -20px;
+}
+
+.btn-footer {
+  color: #004A7F;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 43px;
+  font-size: 13px;
+  padding: 7px 30px;
+  line-height: 47px;
+}
+
+.btn-footer:hover {
+  text-decoration: none;
+}
+
+.form-footer input[type="text"] {
+  border: none;
+  border-radius: 16px 0 0 16px;
+  outline: none;
+  padding-left: 10px;
+
+}
+::placeholder {
+  font-size: 10px;
+  padding-left: 10px;
+  font-style: italic;
+}
+
+.form-footer input[type="button"] {
+  border: none;
+  background:#232323;
+  margin-left: -5px;
+  color: #fff;
+  outline: none;
+  border-radius: 0 16px 16px 0;
+  padding: 2px 12px;
+}
+
+footer ul li {
+  list-style: none;
+  display: block;
+}
+
+footer ul  {
+  padding-left: 0;
+}
+
+footer ul  li a{
+  text-decoration: none;
+  color: grey;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.logo-part {
+  border-right: 1px solid;
+  height: 100%;
+}
+
+.formulaire-btn{
+  margin-bottom: 55px;
+}
+.LogoTaille{
+  font-size: 100px;
+}
+
+/*  Footer fin */
